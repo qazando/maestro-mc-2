@@ -1,0 +1,30 @@
+appId: org.reactjs.native.example.qazandoqafood
+---
+- launchApp
+- tapOn:
+    id: email
+- inputText: teste@teste.com
+- tapOn:
+    id: password
+- inputText: 123456
+- tapOn:
+    id: login-button
+- tapOn:
+    id: address-button
+- tapOn: Permitir
+- tapOn:
+    id: store-list-item
+    index: 0
+- tapOn:
+    id: add-item-buttom
+    index: 0
+- tapOn:
+    point: 50%,90%
+- tapOn:
+    id: confirm-order-button
+- scroll
+- tapOn: Dinheiro
+- tapOn:
+    id: do-order-button
+- assertVisible:
+    id: order-sucess-txt

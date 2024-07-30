@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites>
+  <testsuite name="Test Suite" device="localhost:5555" tests="1" failures="0" time="58">
+    <testcase id="android-flow" name="android-flow" classname="android-flow" time="58"/>
+  </testsuite>
+</testsuites>
